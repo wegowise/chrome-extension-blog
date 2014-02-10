@@ -1,0 +1,18 @@
+{
+  "name": "DevTools",
+  "description": "Loads different domains",
+  "version": "0.6",
+  "permissions": ["contextMenus", "tabs"],
+  "icons": {
+    "16": "panda-with-glasses-small.png",
+    "128": "panda-with-glasses.png"
+  },
+  "background": {
+    "page": "menus.html"
+  },
+  "page_action" :
+  {
+    "default_title" : "DevTools"
+  },
+  "manifest_version": 2
+}
